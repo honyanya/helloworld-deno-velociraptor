@@ -1,0 +1,10 @@
+---
+scripts:
+  lint: deno lint
+  format: deno fmt
+  format-check: deno fmt --check
+  pre-commit:
+    cmd:
+      - vr lint
+      - vr format-check
+    gitHook: pre-commit
