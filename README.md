@@ -13,10 +13,10 @@ Velociraptor install
 https://velociraptor.run/docs/installation/
 
 ```sh
-$ deno install -qAn vr https://deno.land/x/velociraptor@1.4.0/cli.ts
+$ deno install -qAn vr https://deno.land/x/velociraptor@1.5.0/cli.ts
 $ export PATH="/home/vagrant/.deno/bin:$PATH"
 $ vr --version
-1.4.0
+1.5.0
 ```
 
 git hooks setup.
