@@ -1,5 +1,6 @@
 ---
 scripts:
+  start: deno run command.ts
   lint: deno lint
   format: deno fmt
   format:check: deno fmt --check
